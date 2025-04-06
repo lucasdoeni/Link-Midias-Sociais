@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #c4f82a;
+    --cor2: #1f1f1f;
+    --cor3: #141414;
+    --cor4: #333333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--cor3);
+    color: white;
+}
+
+.card {
+    background-color: var(--cor2);
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 450px;
+    height: 670px;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+.card img {
+    width: 130px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 150px;
+}
+
+.card ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.card li a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--cor4);
+    display: block;
+    padding: 17px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card li a:hover {
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition: 0.2s;
+    font-weight: 700;
+}
+
+.card h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--cor1);
+}
+
+.card p {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 580px) {
+    .card {
+        width: 70%;
+    }
+}
