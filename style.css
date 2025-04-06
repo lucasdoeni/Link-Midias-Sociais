@@ -22,6 +22,7 @@ body {
     background-color: var(--cor2);
     margin: 0 auto;
     margin-top: 200px;
+    margin-bottom: 200px;
     width: 450px;
     height: 670px;
     border-radius: 15px;
